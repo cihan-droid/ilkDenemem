@@ -51,8 +51,7 @@ class _GirisEkranState extends State<GirisEkran> {
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           return AnasayfaBlocProvider(
-              child: Anasayfa(),
-              anasayfaBloc: AnasayfaBloc(dbApi: DbRestApi()));
+              child: Anasayfa(), anasayfaBloc: AnasayfaBloc());
         } else {
           return SplashSayfa();
         }

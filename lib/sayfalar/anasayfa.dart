@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ilkDenemem/bloclar/anasayfa_bloc.dart';
-import 'package:ilkDenemem/bloclar/anasayfa_bloc_provider.dart';
 import 'package:ilkDenemem/sayfalar/harita_sayfasi.dart';
 
 class Anasayfa extends StatefulWidget {
